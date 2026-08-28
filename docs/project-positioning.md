@@ -49,9 +49,10 @@ Each skill solves a single, well-defined ministry task (e.g., preparing weekly a
 
 ---
 
-## 🌐 Ecosystem Context: Ministry AI Skills & OpenChurch AI
+## 🌐 Ecosystem Context: Melanated in Tech & OpenChurch AI
 
 - **`ministry-ai-skills`** is the standalone, platform-agnostic open-source library of prompts, workflows, and schemas. It is intentionally simple, accessible directly on GitHub, and usable with zero software installation.
+- **Melanated in Tech** is the founding initiative and community stewarding this project, dedicated to bridging faith, technology, and AI empowerment for leaders, creators, and local churches.
 - **OpenChurch AI** represents a vision for a broader future ecosystem of open tools, integrations, and community applications that may build upon or incorporate the Ministry AI Skills library over time.
 
 By keeping the skill library independent, modular, and vendor-neutral, any church, developer, or ministry platform can adopt and contribute to these skills freely.

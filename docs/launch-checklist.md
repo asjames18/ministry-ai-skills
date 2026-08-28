@@ -20,7 +20,7 @@ Open-source, platform-agnostic AI skills, prompts, workflows, and guardrails for
 
 ### Exact GitHub Topics (Tags)
 ```text
-church-tech, ministry-ai, christian-ministry, ai-prompts, prompt-engineering, llm-agents, pastoral-care, church-management, open-source
+church-tech, ministry-ai, christian-ministry, ai-prompts, prompt-engineering, llm-agents, pastoral-care, church-management, melanated-in-tech, open-source
 ```
 
 ---

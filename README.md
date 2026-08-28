@@ -1,10 +1,13 @@
 # Ministry AI Skills 🕊️
 
 > **An open-source, platform-agnostic library of reusable AI skills, prompts, workflows, guardrails, and examples for churches, ministries, and faith-based organizations.**
+>
+> *An open-source faith-tech initiative by **Melanated in Tech**.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Platform Agnostic](https://img.shields.io/badge/Platform-Agnostic-orange.svg)](#-platform-compatibility)
+[![Initiative: Melanated in Tech](https://img.shields.io/badge/Initiative-Melanated%20in%20Tech-111827.svg)](https://melanatedintech.com)
 [![Ministry AI](https://img.shields.io/badge/Ministry-AI%20Skills-purple.svg)](docs/project-positioning.md)
 
 ---
@@ -13,7 +16,7 @@
 
 Ministry teams—from solo pastors and bi-vocational leaders to large church staffs and faithful volunteers—often struggle under heavy administrative loads, communication bottlenecks, and burnout. 
 
-**Ministry AI Skills** provides an open, trusted, modular collection of AI skills tailored specifically for real-world ministry workflows. 
+**Ministry AI Skills** is an open-source initiative incubated and maintained by **Melanated in Tech** to provide an open, trusted, modular collection of AI skills tailored specifically for real-world ministry workflows. 
 
 > ### 🕊️ Core Conviction
 > **AI assists ministry; it never replaces pastors, church leadership, prayer, spiritual discernment, Scripture, accountability, or real human care.**
@@ -185,6 +188,12 @@ Check out our [Platform Integration Guides](docs/platform-guides.md) for tutoria
 ## 🌐 Ecosystem Note
 
 **Ministry AI Skills** is designed as a standalone, vendor-neutral library. In the future, community platforms such as *OpenChurch AI* and various church management systems may build tools, web interfaces, and agent integrations powered by these open skills.
+
+---
+
+## 🖤 About Melanated in Tech
+
+**Ministry AI Skills** is founded and stewarded by **[Melanated in Tech](https://melanatedintech.com)**, an initiative focused on equipping diverse technologists, church leaders, and faith communities with practical AI skills, open tools, and human-centered innovation.
 
 ---
 
