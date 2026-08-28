@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SermonPrepSupportInput",
+  "description": "Input schema for generating sermon preparation and exegetical study notes.",
+  "type": "object",
+  "required": [
+    "passage"
+  ],
+  "properties": {
+    "passage": {
+      "type": "string",
+      "description": "The biblical reference (e.g., Romans 8:28-39 or Exodus 3:1-15)."
+    },
+    "translation": {
+      "type": "string",
+      "description": "Preferred Bible translation (e.g., ESV, NIV, CSB, NASB, NLT, KJV).",
+      "default": "ESV"
+    },
+    "theological_tradition": {
+      "type": "string",
+      "description": "Theological framework (e.g., Reformed, Wesleyan, Baptist, Anglican, Pentecostal, Evangelical).",
+      "default": "Historic Evangelical / Protestant orthodoxy"
+    },
+    "series_theme": {
+      "type": "string",
+      "description": "Optional overarching sermon series title or core theme."
+    },
+    "audience_context": {
+      "type": "string",
+      "description": "Target audience (e.g., Multi-generational suburban church, college students, unchurched seekers, mature believers).",
+      "default": "Multi-generational church congregation"
+    },
+    "pastor_initial_notes": {
+      "type": "string",
+      "description": "Any preliminary insights, sermon title ideas, or specific angles the pastor already has in mind."
+    }
+  }
+}

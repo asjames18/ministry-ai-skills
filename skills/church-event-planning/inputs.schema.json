@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChurchEventPlanningInput",
+  "description": "Input data schema for generating church event master plans.",
+  "type": "object",
+  "required": [
+    "event_name",
+    "purpose_and_goals",
+    "target_date_and_time",
+    "location_and_spaces"
+  ],
+  "properties": {
+    "event_name": {
+      "type": "string",
+      "description": "Title of the event (e.g., Marriage Night: Strengthening the Bond)."
+    },
+    "purpose_and_goals": {
+      "type": "string",
+      "description": "Why the church is holding this event and intended outcomes."
+    },
+    "target_date_and_time": {
+      "type": "string",
+      "description": "Date, start time, and scheduled end time."
+    },
+    "location_and_spaces": {
+      "type": "string",
+      "description": "Venue, campus rooms, outdoor fields, or off-site location."
+    },
+    "expected_attendance": {
+      "type": "integer",
+      "description": "Estimated number of attendees (e.g., 150).",
+      "default": 100
+    },
+    "target_audience": {
+      "type": "string",
+      "description": "Target demographic (e.g., Married couples, Families with kids, Youth, Community neighbors)."
+    },
+    "total_budget": {
+      "type": "string",
+      "description": "Total available budget (e.g., $2,500)."
+    },
+    "program_elements": {
+      "type": "array",
+      "description": "List of key agenda elements.",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FirstTimeGuestFollowUpInput",
+  "description": "Input schema for first-time guest follow-up sequence generation.",
+  "type": "object",
+  "required": [
+    "church_name",
+    "lead_pastor_name",
+    "visitor_first_name"
+  ],
+  "properties": {
+    "church_name": {
+      "type": "string",
+      "description": "Name of the church."
+    },
+    "lead_pastor_name": {
+      "type": "string",
+      "description": "Name of the Lead/Senior Pastor (or sender)."
+    },
+    "visitor_first_name": {
+      "type": "string",
+      "description": "First name of the visitor (never use full names to maintain privacy)."
+    },
+    "attendance_type": {
+      "type": "string",
+      "enum": ["in-person", "online_stream"],
+      "default": "in-person"
+    },
+    "family_status": {
+      "type": "string",
+      "description": "e.g., Attended alone, attended with spouse, attended with children in kids ministry."
+    },
+    "stated_interests": {
+      "type": "array",
+      "description": "Interests checked on connection card (e.g., Small Groups, Serving, Kids Ministry, Just Exploring).",
+      "items": {
+        "type": "string"
+      }
+    },
+    "upcoming_event": {
+      "type": "string",
+      "description": "Next event or upcoming sermon series (e.g., Newcomers Pizza Lunch next Sunday at 12:30 PM)."
+    },
+    "website_or_contact_link": {
+      "type": "string",
+      "description": "Church website or pastor contact link."
+    }
+  }
+}

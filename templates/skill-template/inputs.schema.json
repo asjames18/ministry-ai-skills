@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SkillInputSchema",
+  "description": "JSON schema for validating inputs to this skill.",
+  "type": "object",
+  "required": [
+    "church_name",
+    "primary_content"
+  ],
+  "properties": {
+    "church_name": {
+      "type": "string",
+      "description": "The name of the local church or ministry organization."
+    },
+    "theological_tradition": {
+      "type": "string",
+      "description": "Optional doctrinal framework or denomination (e.g., Baptist, Presbyterian, Non-denominational, Methodist, Anglican)."
+    },
+    "tone": {
+      "type": "string",
+      "description": "Desired tone of voice (e.g., Warm & Informal, Traditional & Reverent, Modern & Engaging).",
+      "default": "Warm and inviting"
+    },
+    "primary_content": {
+      "type": "string",
+      "description": "The raw text, bullet points, or structured details to process."
+    },
+    "special_instructions": {
+      "type": "string",
+      "description": "Any additional constraints, target word counts, or specific guidelines."
+    }
+  }
+}

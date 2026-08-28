@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "catalog_version": "1.0.0",
+  "project": "Ministry AI Skills",
+  "description": "Machine-readable catalog of open-source AI skills for churches and ministries.",
+  "total_skills": 5,
+  "skills": [
+    {
+      "id": "weekly-announcements",
+      "name": "Weekly Announcements",
+      "description": "Transforms raw ministry event notes into polished multi-channel announcements for stage hosts, printed bulletins, weekly email digests, presentation slides, and social media.",
+      "ministry_area": "Communications & Administration",
+      "audience": [
+        "Church Administrators",
+        "Stage Hosts",
+        "Communications Directors",
+        "Media Volunteers"
+      ],
+      "sensitivity_level": "low",
+      "required_inputs": [
+        "church_name",
+        "target_date",
+        "announcements"
+      ],
+      "output_types": [
+        "stage_script",
+        "bulletin_blurbs",
+        "email_newsletter",
+        "slide_copy",
+        "social_media_caption"
+      ],
+      "folder_path": "skills/weekly-announcements"
+    },
+    {
+      "id": "sermon-prep-support",
+      "name": "Sermon Preparation Support",
+      "description": "Acts as an exegetical and homiletical research assistant providing historical context, theological structure, original language term spotlights, practical illustration angles, and small group discussion questions.",
+      "ministry_area": "Teaching & Discipleship",
+      "audience": [
+        "Senior Pastors",
+        "Teaching Pastors",
+        "Associate Pastors",
+        "Bible Teachers",
+        "Small Group Leaders"
+      ],
+      "sensitivity_level": "low",
+      "required_inputs": [
+        "passage"
+      ],
+      "output_types": [
+        "historical_context",
+        "theological_outline",
+        "word_study_spotlights",
+        "illustration_concepts",
+        "life_application",
+        "discussion_questions"
+      ],
+      "folder_path": "skills/sermon-prep-support"
+    },
+    {
+      "id": "church-event-planning",
+      "name": "Church Event Planning",
+      "description": "Produces end-to-end event execution blueprints including a minute-by-minute run-of-show table, volunteer staffing matrices, 6-week promotional runways, facilities/safety checklists, and contingency plans.",
+      "ministry_area": "Operations & Logistics",
+      "audience": [
+        "Event Coordinators",
+        "Ministry Directors",
+        "Youth & Children's Pastors",
+        "Hospitality Leads",
+        "Facilities Managers"
+      ],
+      "sensitivity_level": "low",
+      "required_inputs": [
+        "event_name",
+        "purpose_and_goals",
+        "target_date_and_time",
+        "location_and_spaces"
+      ],
+      "output_types": [
+        "run_of_show_table",
+        "volunteer_staffing_matrix",
+        "promotion_timeline",
+        "facilities_tech_safety_checklist",
+        "budget_contingency_plan"
+      ],
+      "folder_path": "skills/church-event-planning"
+    },
+    {
+      "id": "first-time-guest-follow-up",
+      "name": "First-Time Guest Follow-Up",
+      "description": "Creates warm, low-pressure, multi-channel guest follow-up communication sequences across Day 0 SMS, Day 2 pastoral welcome emails, handwritten card scripts, and weekend previews.",
+      "ministry_area": "Hospitality & Care",
+      "audience": [
+        "Assimilation Pastors",
+        "Connections Directors",
+        "Welcome Team Leads",
+        "Lead Pastors",
+        "ChMS Administrators"
+      ],
+      "sensitivity_level": "medium",
+      "required_inputs": [
+        "church_name",
+        "lead_pastor_name",
+        "visitor_first_name"
+      ],
+      "output_types": [
+        "sms_touchpoint",
+        "pastoral_email",
+        "handwritten_card_script",
+        "weekend_preview_touchpoint",
+        "chms_internal_checklist"
+      ],
+      "folder_path": "skills/first-time-guest-follow-up"
+    },
+    {
+      "id": "church-media-pack",
+      "name": "Church Media Pack",
+      "description": "Generates cohesive Sunday visual and creative assets including Midjourney/DALL-E image prompts, presentation slide copy, 5-slide educational Instagram carousels, short-form video hooks, and YouTube metadata.",
+      "ministry_area": "Creative & Media",
+      "audience": [
+        "Media Directors",
+        "Graphic Designers",
+        "Social Media Managers",
+        "Video Editors",
+        "Pastors producing digital devotionals"
+      ],
+      "sensitivity_level": "low",
+      "required_inputs": [
+        "series_or_sermon_title",
+        "scripture_passage",
+        "big_idea"
+      ],
+      "output_types": [
+        "ai_image_prompts",
+        "presentation_slide_copy",
+        "instagram_carousel_plan",
+        "short_form_video_hooks",
+        "youtube_metadata"
+      ],
+      "folder_path": "skills/church-media-pack"
+    }
+  ]
+}
